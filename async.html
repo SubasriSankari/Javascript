@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Callback</h2>
+
+<p id="content">This content will change after 5 seconds...</p>
+
+<script>
+    setTimeout(callbackFunction, 5000);
+
+    function callbackFunction() {
+        document.getElementById("content").innerHTML = "CallBack Function!!";
+    }
+</script>
+
+</body>
+</html>
